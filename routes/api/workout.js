@@ -25,7 +25,6 @@ router.get("/", async (req, res) => {
 router.post("/", async ({body}, res) => {
   try {
     const dbExercise = await Exercise.Workout.create(body)
-    console.log(dbExercise)
       res.json(dbExercise);
     
   } catch (error) {
@@ -38,7 +37,6 @@ router.get("/range", async (req, res) => {
   try {
     const dbExercise = await Exercise.Workout.find({})
       res.json(dbExercise);
-      console.log(dbExercise)
     
   } catch (error) {
     res.status(400).json(error); 
