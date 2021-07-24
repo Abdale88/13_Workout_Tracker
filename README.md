@@ -49,4 +49,6 @@ cabdale989@gmail.com
   https://workout-tracker-db.herokuapp.com/
 ## Screen shots
 ![](./images/img1.png)
-[](./images/img2.png)
+
+
+![](./images/img2.png)
